@@ -279,7 +279,7 @@ section#public {
 
 
 div.public-img img {
-    width: 40rem;
+    width: 30rem;
     filter: drop-shadow(0px 0px 15px rgba(0, 0, 0, 0.466));
 }
 
@@ -316,11 +316,12 @@ div.public-txt {
 
 @media screen and (max-width: 1347px) {
     div.public-img img {
-        width: 20rem;
+        width: 15rem;
     }
 }
 
 @media screen and (max-width: 900px) {
+
     #public {
         flex-direction: column;
         padding: 2em;
@@ -334,6 +335,7 @@ div.public-txt {
     }
 
     #impactos {
+        margin-bottom: 10rem;
         flex-direction: column;
         padding: 2em;
         text-align: center;
@@ -395,13 +397,13 @@ div.problema-txt {
 div.problema-img img {
     object-fit: cover;
     object-position: 50% 10%;
-    width: 40rem;
+    width: 30rem;
     filter: drop-shadow(0px 0px 15px rgba(0, 0, 0, 0.466));
 }
 
 @media screen and (max-width: 1347px) {
     div.problema-img img {
-        width: 20rem;
+        width: 15rem;
     }
 }
 
@@ -430,14 +432,14 @@ div.impactos-txt {
 }
 
 div.impactos-img img {
-    width: 40rem;
+    width: 25rem;
     filter: drop-shadow(0px 0px 15px rgba(0, 0, 0, 0.466));
     padding-bottom: 5em;
 }
 
 @media screen and (max-width: 1347px) {
     div.impactos-img img {
-        width: 30rem;
+        width: 15rem;
     }
 }
 
@@ -468,13 +470,13 @@ div.gamification-txt {
 }
 
 div.gamification-img img {
-    width: 40rem;
+    width: 30rem;
     filter: drop-shadow(0px 0px 15px rgba(0, 0, 0, 0.466));
 }
 
 @media screen and (max-width: 1347px) {
     div.gamification-img img {
-        width: 20rem;
+        width: 15rem;
     }
 }
 
@@ -503,13 +505,13 @@ div.objetivo-txt {
 }
 
 div.objetivo-img img {
-    width: 30rem;
+    width: 20rem;
     filter: drop-shadow(0px 0px 15px rgba(0, 0, 0, 0.466));
 }
 
 @media screen and (max-width: 1347px) {
     div.objetivo-img img {
-        width: 24rem;
+        width: 15rem;
     }
 }
 
@@ -539,13 +541,13 @@ div.positivos-txt {
 }
 
 div.positivos-img img {
-    width: 30rem;
+    width: 20rem;
     filter: drop-shadow(0px 0px 15px rgba(0, 0, 0, 0.466));
 }
 
 @media screen and (max-width: 1347px) {
     div.positivos-img img {
-        width: 24rem;
+        width: 15rem;
     }
 }
 
