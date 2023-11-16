@@ -247,6 +247,11 @@ img.logo {
 }
 
 @media screen and (max-width: 665px) {
+    body, html {
+        width: 100%;
+        overflow-x: hidden;
+    }
+
     #banner h1, .banner-title{
         font-size: 5em;
     }
