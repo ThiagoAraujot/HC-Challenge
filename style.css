@@ -335,7 +335,7 @@ div.public-txt {
     }
 
     #impactos {
-        margin-bottom: 10rem;
+        /*margin-bottom: 10rem;*/
         flex-direction: column;
         padding: 2em;
         text-align: center;
