@@ -241,14 +241,23 @@ img.logo {
   }
 
 @media screen and (max-width: 1120px) {
-    #banner h1 {
+    #banner h1, .banner-title {
         font-size: 8rem;
     }
 }
 
 @media screen and (max-width: 665px) {
-    #banner h1 {
+    #banner h1, .banner-title{
         font-size: 5em;
+    }
+
+    .form-img {
+        display: none;
+    }
+
+    #footer-container {
+        flex-direction: column;
+        gap: 1em;
     }
 }
 
@@ -310,6 +319,52 @@ div.public-txt {
     #public {
         flex-direction: column;
         padding: 2em;
+        text-align: center;
+    }
+
+    #problema {
+        flex-direction: column;
+        padding: 2em;
+        text-align: center;
+    }
+
+    #impactos {
+        flex-direction: column;
+        padding: 2em;
+        text-align: center;
+    }
+
+    #gamification {
+        flex-direction: column;
+        padding: 2em;
+        text-align: center;
+    }
+
+    #objetivo {
+        flex-direction: column;
+        padding: 2em;
+        text-align: center;
+    }
+
+    #positivos {
+        flex-direction: column;
+        padding: 2em;
+        text-align: center;
+    }
+
+    .number-section {
+        font-size: 3rem;
+    }
+
+    .title-section {
+        font-size: 2rem ;
+    }
+
+    .descricao {
+        font-size: 1em;
+        width: 300px;
+        text-align: center;
+        margin: 0 auto;
     }
 }
 
