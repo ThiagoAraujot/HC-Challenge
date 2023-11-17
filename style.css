@@ -242,7 +242,7 @@ img.logo {
     justify-content: center;
     align-items: center;
     padding: 1em;
-    animation: float 5s ease-in-out infinite; 
+    animation: float 3s ease-in-out infinite; 
 }
 
 .home-scroll img {
@@ -740,7 +740,7 @@ label {
 
 #usuario-cadastrado {
     padding: 1em;
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
 
     text-align: center;
     font-size: 1.125rem;
