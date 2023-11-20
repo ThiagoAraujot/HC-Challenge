@@ -285,6 +285,10 @@ img.logo {
         font-size: 5em;
     }
 
+    .banner-subtitle {
+        margin-top: 1em;
+    }
+
     .form-img {
         display: none;
     }
