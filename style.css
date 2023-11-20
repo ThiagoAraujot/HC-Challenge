@@ -84,6 +84,11 @@ a {
 
 }
 
+bold {
+    font-weight: 700;
+    color: #C6E94A;
+}
+
 /* NAVBAR */
 
 .navbar {
@@ -120,7 +125,7 @@ img.logo {
 }
 
 .nav-logo-txt {
-    color: #FFF;
+    color: #0086C5;
     font-size: 1.25rem;
     font-style: normal;
     font-weight: 800;
@@ -336,6 +341,7 @@ div.public-txt {
     font-style: normal;
     font-weight: 400;
     line-height: 160%; /* 2rem */
+    text-align: justify;
 }
 
 @media screen and (max-width: 1347px) {
