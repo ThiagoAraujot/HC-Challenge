@@ -1,6 +1,7 @@
 # HC-Challenge
 
 Link do prototipo Figma:
+<hr>
 https://www.figma.com/file/tqgkF1URj9ISO8EGZSvnRs/Gamification?type=design&mode=design&t=Stjkf3i1gQpecp5r-1
 
 Participantes 
